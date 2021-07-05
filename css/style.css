@@ -1,0 +1,227 @@
+header {
+    position: fixed;
+    width: 100%;
+    padding: 25px 0;
+    background: #0F2852;
+    z-index: 10;
+}
+
+a, li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #fff;
+}
+/* header*/
+.header_menu {
+    text-align: right;
+}
+
+.header_menu ul li{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* introdução*/
+
+.introducao {
+    width: 100%;
+    background: #0F2852;
+}
+
+.foto_pincipal {
+    display: block;
+    margin:0px auto;
+    padding-top: 110px;
+}
+
+.introducao h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: .03em;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.introducao p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 5px;
+    color: #95DFFA;
+}
+
+.introducao ul {
+    width: 160px;
+    margin: 10px auto;
+    
+}
+
+.introducao ul li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.sobre h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    line-height: 35px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 40px 0;
+    color: #0E326F;
+}
+
+.sobre h2::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #0E326F;
+    margin: 6px auto;
+}
+
+.sobre p{
+    width: 400px;
+    margin: 20px 0 0 30px;
+}
+
+.sobre img{
+    height: 200;
+    margin-top: 0px;
+}
+
+.skill h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    line-height: 35px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 40px 0;
+    color: #fff;
+}
+
+.skill h2::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 6px auto;
+}
+
+.skill ul {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.skill ul li{
+    display: inline-block;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-bottom: 40px;
+}
+
+.skill{
+    width: 100%;
+    background: #0F2852;
+}
+ .contato{
+     margin-bottom: -40px;
+ }
+
+.contato h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    line-height: 35px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 40px 0 60px 0;
+    color: #0E326F;
+}
+
+.contato h2::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #0E326F;
+    margin: 6px auto;
+}
+
+.gmail {
+    width: 60px;
+    margin-left: 300px;
+}
+
+.ul-gmail {
+    padding-bottom: 60px;
+}
+
+.ul-gmail li{
+    display: inline-block;
+}
+
+.ul-gmail li p{
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: none;
+    color: #0F2852;
+    padding-top: 16px;
+}
+
+.github {
+    width: 60px;
+    display: inline-block;
+}
+
+.ul-github li{
+ margin-left: 100px;
+}
+
+.ul-github li p{
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: none;
+    color: #0F2852;
+    padding-top: 16px;
+}
+
+.linkdin {
+    position: relative;
+    top: -43px;
+    padding-left:300px;
+}
+
+.linkdin-p p{
+    position: relative;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: none;
+    color: #0F2852;
+    padding-left: 540px;
+    top: -105px;
+    padding-top: 16px;
+}
+
+.footer {
+    width: 100%;
+    background: #0F2852;
+}
+
+.footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
