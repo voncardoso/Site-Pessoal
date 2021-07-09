@@ -21,6 +21,13 @@ img {
     max-width: 100%;/* faz com que a imagem fique respoinsivo sempre aumentado ou diminuindo de arcordo com a tela*/
 }
 
+h2 {
+    text-align: center;
+    color: #2C70FF;
+    font-size: 2em;
+    padding-bottom: 60px;
+}
+
 *{
     box-sizing: border-box;
 }
@@ -105,13 +112,7 @@ img {
     margin: 40px auto;
 }
 
-.sobre h2 {
-    font-size: 2em;
-    font-weight: bold;
-    text-align: center;
-    color: #2C70FF;
-    padding-bottom: 60px;
-}
+
 
 .sobre_flex {
     max-width: 960px;
@@ -148,28 +149,23 @@ img {
     margin: 0px auto;
 }
 
-.Skkills h2 {
-    text-align: center;
-    color: #2C70FF;
-    font-size: 2em;
-    padding-bottom: 60px;
-}
-
 .skills_img {
     display: flex;
+    flex: 1 1 260px;
     flex-wrap: wrap;
 }
 
 .skills_img img{
     margin: 0px;
-    background: chartreuse;
 }
 
 .skills_img li {
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .skills_img p {
     text-align: center;
-    margin-bottom: 0px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
