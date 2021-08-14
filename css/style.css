@@ -32,6 +32,7 @@ h2 {
 *{
     box-sizing: border-box;
 }
+
 /*Menu*/
 .menu-bg {
     background: #2C70FF;
@@ -77,7 +78,6 @@ h2 {
     border-bottom: 2px solid #2C70FF;
     max-width: 960px;
     margin: 0 auto;
-    padding: 100px 10px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -85,7 +85,7 @@ h2 {
 .introducao_info {
     align-self: center;
     flex: 1 1 260px;
-    margin: 0 20px;
+    margin: 0px 20px;
 }
 
 .introducao_info h1 {
@@ -98,6 +98,11 @@ h2 {
     color: #00CAF0;
     font-size: 1.5em;
     padding: 0 14px;
+}
+
+.introducao_img{
+    padding: 0;
+    margin-bottom: 0PX;
 }
 
 @media (max-width: 880px) {
@@ -329,3 +334,4 @@ footer {
     text-align: center;
     color: #fff;
 }
+
