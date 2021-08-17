@@ -37,6 +37,7 @@ h2 {
 .menu-bg {
     background: #2C70FF;
     color: #fff;
+    width: 100%;
 }
 
 .menu {
@@ -47,6 +48,7 @@ h2 {
     justify-content: space-between;  /*vai colocar os objetos na estremidade e se tiver mais de 2 vai centralizar*/
     flex-wrap: wrap;/* vai quebar quando chegar no limete do container*/
     align-items: center; /* vai centralizar todo o container*/
+   
 }
 .menu a{
     font-size: 1.25em;
@@ -72,6 +74,8 @@ h2 {
     display: flex;
 }
 
+
+
 /*Introducao*/
 
 .introducao {
@@ -80,6 +84,8 @@ h2 {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 60px;
+    padding-top: 60px;
 }
 
 .introducao_info {
@@ -113,6 +119,7 @@ h2 {
 
     .introducao_img {
         padding: 40px 20px;
+        margin-left: 20px;
     }
 }
 
@@ -132,13 +139,24 @@ h2 {
     margin: 0 auto;
     padding-left: 10px;
     flex-wrap: wrap;
+    
 }
 .sobre_flex img{
     flex: 1;    
     padding: 5px;
-    margin: 0px 100px 60px 10px;
+    margin: 0px 100px 60px 0px;
     border: 5px solid  #2C70FF;
     border-radius: 90%;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+    
+}
+
+.sobre_flex img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    border: 2px solid  #2C70FF;
+    cursor: pointer;
 }
 
 
@@ -270,6 +288,10 @@ h2 {
     -webkit-transform:scale(1.1);
     transform:scale(1.1);
     cursor: pointer;
+  }
+
+  .contato_item a:hover{
+      color: #2C70FF;
   }
 
 .item_3 {
