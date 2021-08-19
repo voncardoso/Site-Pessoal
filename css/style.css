@@ -74,6 +74,60 @@ h2 {
     display: flex;
 }
 
+.btn-mobile{
+    display: none;
+}
+
+@media(max-width: 600px){
+
+
+    .menu-nav {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 62px;
+        right: 0px;
+        transition: .8s;
+        background: #2C70FF;
+        height: 0px;
+        visibility: hidden;
+        z-index: 1000;
+    }
+
+    .menu-nav ul {
+        display: block;
+        
+    }
+
+    .menu-nav a{
+        padding: 1.5rem 0.4rem;
+        margin: 0 1rem;
+    }
+
+
+    .active {
+        height: calc(100vh - 62px);
+        display: block;
+        overflow: auto;/*para aparcer a barra de rolagem*/
+        visibility: visible;
+    }
+
+    .btn-mobile{
+        display: block;
+        margin-right: 5px;
+        padding: .5rem 1rem;
+        background: none;
+        border: none;
+        cursor: pointer;
+        gap: .5rem;
+    }
+
+    .hanbuger{
+        border-top: 2px solid;
+        width: 20px;
+    }
+}
+
 
 
 /*Introducao*/
@@ -277,6 +331,7 @@ h2 {
     padding-left: 10px;
     align-self: center;
     cursor: pointer;
+    color: #222222;
 }
 
 .contato_item img { /* faz a imagem aumenta*/
