@@ -171,6 +171,13 @@ h2 {
         padding: 40px 20px;
     }
 
+    .introducao_info p{
+        text-align: center;
+    }
+    .introducao_info h1{
+        text-align: center;
+    }
+
     .introducao_img {
         padding: 40px 20px;
         margin-left: 20px;
@@ -224,11 +231,31 @@ h2 {
     .sobre_flex img{
         max-width: 300px;
         max-height: 300px;
-        margin: 20px auto;
+        margin: 0px auto;
     }
     .sobre_flex p{
         margin-bottom: 40px;
         padding: 20px 20px 0px 20px;
+    }
+}
+
+@media (max-width: 620px) {
+    .sobre_flex {
+        margin-top: 0px;
+       display: block;
+    }
+    .sobre_flex img{
+        max-width: 300px;
+        max-height: 300px;
+        margin: 0px auto;
+    }
+    .sobre_flex p{
+        margin-bottom: 40px;
+        padding: 20px 30px 0px 30px;
+    }
+
+    h2{
+        padding-bottom: 20px;
     }
 }
 
@@ -301,42 +328,44 @@ h2 {
 .contato {
     background: #F7F7F7;
     margin-top: 60px;
-    
+   
 }
 
 .contato h2 {
     padding-top: 40px;
 }
-
-.contato_flex {
-    max-width: 960px;
-    margin: 0px auto;
-    display: flex;
-    flex-wrap: wrap;
+.contato-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .contato_item {
     display: flex;
-    margin: 0px auto;
-    justify-content: space-between;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
-.contato_itemul li {
-    justify-content: space-between;
-    flex-wrap: wrap;
+.gmail img{
+    margin-left: 140px;
+    
 }
 
-.contato_item a {
-    padding-left: 10px;
+.facebook img{
+    margin-left: 140px;
+}
+
+#link{
     align-self: center;
-    cursor: pointer;
+    padding: 10px;
     color: #222222;
+    cursor: pointer;
 }
 
 .contato_item img { /* faz a imagem aumenta*/
     -webkit-transition: all 0.7s ease;
     transition: all 0.7s ease;  
+    min-width: 60px;
 }
 
 .contato_item img:hover {/* faz a imagem aumenta*/
@@ -345,25 +374,55 @@ h2 {
     cursor: pointer;
   }
 
-  .contato_item a:hover{
+#link:hover{
       color: #2C70FF;
   }
 
-.item_3 {
-    margin-left: 75px;
-}
 
-.item_4 {
-    margin-right: 75px;
-}
 
-@media (max-width: 980px) {
-    .contato_flex{
+@media (max-width: 940px) {
+    .contato-grid{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    .contato_flex img{
+    .contato-grid img{
         min-width: 58px;
+    }
+    .gmail img{
+        margin-left: 120px;
+        
+    }
+    
+    .facebook img{
+        margin-left: 120px;
+    }
+    .contato h2{
+        padding-bottom: 30px;
+    }
+    .contato_item{
+        margin: 0px;
+        padding: 10px;
+    }
+    .contato_item {
+        max-width: 200px;
+        padding-right: 10px;
+    }
+}
+@media (max-width: 858px) {
+    .contato-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .contato-grid img{
+        min-width: 58px;
+    }
+    .gmail img{
+        margin-left: 70px;
+        
+    }
+    
+    .facebook img{
+        margin-left: 70px;
     }
     .contato h2{
         padding-bottom: 30px;
@@ -378,11 +437,84 @@ h2 {
     }
 }
 
+@media (max-width: 700px){
+    .contato-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contato-grid img{
+        min-width: 58px;
+    }
+    .gmail img{
+        margin-left: 35px;
+        
+    }
+    
+    .facebook img{
+        margin-left: 35px;
+    }
+    .contato h2{
+        padding-bottom: 30px;
+    }
+    .contato_item{
+        margin: 0px;
+        padding: 10px;
+    }
+    .contato_item {
+        max-width: 200px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 650px){
+    .contato-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .contato-grid img{
+        min-width: 58px;
+    }
+    .contato_item{
+        padding-left: 15px;
+    }
+    .gmail img{
+        margin-left: 15px;
+        
+    }
+    
+    .facebook img{
+        margin-left: 15px;
+    }
+    .contato h2{
+        padding-bottom: 20px;
+    }
+    .contato_item{
+        margin: 0px;
+        padding: 10px;
+    }
+    .contato_item {
+        max-width: 200px;
+        padding-right: 10px;
+    }
+}
+
 @media (max-width: 610px){
-    .contato_flex{
+    .contato-grid{
         display: grid;
         grid-template-columns: 1fr;
     }
+    .contato-grid img {
+        margin-left: 30px;
+    }
+    .facebook img{
+        margin-left: 30px;
+    }
+
+    .gmail img{
+        margin-left: 30px;
+    }
+
 }
 
 
