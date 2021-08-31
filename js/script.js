@@ -9,12 +9,12 @@ function toggleMenu(){
 }
 
 function FechaMenu(){
-    const nav1 = document.querySelector('.menu-nav');
-    nav1.classList.toggle('active');
+    const nav = document.querySelector('.menu-nav');
+    nav.classList.toggle('active');
 }
 
 btnMobile.addEventListener('click', toggleMenu);
 
-fechabtn.addEventListener('click', FechaMenu);
-fechabtn1.addEventListener('click', FechaMenu);
-fechabtn2.addEventListener('click', FechaMenu);
+fechabtn.addEventListener('click', toggleMenu);
+fechabtn1.addEventListener('click', toggleMenu);
+fechabtn2.addEventListener('click', toggleMenu);
